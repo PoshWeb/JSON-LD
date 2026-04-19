@@ -1,6 +1,6 @@
 @{
     RootModule = 'JSON-LD.psm1'
-    ModuleVersion = '0.1.1'
+    ModuleVersion = '0.1.2'
     GUID = '4e65477c-012c-4077-87c7-3e07964636ce'
     Author = 'James Brundage'
     CompanyName = 'Start-Automating'
@@ -16,22 +16,23 @@
             # A URL to the license for this module.
             ProjectURI = 'https://github.com/PoshWeb/JSON-LD'
             LicenseURI = 'https://github.com/PoshWeb/JSON-LD/blob/main/LICENSE'
+            PSIntro = @'
+Get JSON Linked Data with PowerShell
+
+Gets information stored in a page's [json-ld](https://json-ld.org/) (json linked data)
+
+Many pages expose this information for search engine optimization.
+
+This module lets you easily get and work with JSON-LD objects.
+'@
             ReleaseNotes = @'
 ---
 
-## JSON-LD 0.1.1
+## JSON-LD 0.1.2
 
-* Updating Examples (#13)
-* Simplfiying module scaffolding (#15)
-* Building types with EZOut (#5)
-* Supporting file input (#23)
-* `Get-JSONLD -as`
-  * `Get-JSONLD -as json` (#16)
-  * `Get-JSONLD -as html` (#17)
-  * `Get-JSONLD -as script` (#18)
-  * `Get-JSONLD -as xml` (#19)
-* Adding conversion to JsonSchema (#21)
-* Adding conversion to At Protocol Lexicons (#22)
+* Aliasing Url to Uri (#12)
+* Supporting direct JSON-LD content links (#27) (Thanks @AniTexs!)
+* Generating README.md (#28)
 
 ---
 
@@ -46,4 +47,3 @@ Additional History in [CHANGELOG](https://github.com/PoshWeb/JSON-LD/blob/main/C
     }
     
 }
-

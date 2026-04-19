@@ -5,6 +5,14 @@ Please:
 
 ---
 
+## JSON-LD 0.1.2
+
+* Aliasing Url to Uri (#12)
+* Supporting direct JSON-LD content links (#27) (Thanks @AniTexs!)
+* Generating README.md (#28)
+
+---
+
 ## JSON-LD 0.1.1
 
 * Updating Examples (#13)
