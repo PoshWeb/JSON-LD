@@ -31,9 +31,8 @@ This module lets you easily get and work with JSON-LD objects.
 ## JSON-LD 0.1.2
 
 * Aliasing Url to Uri (#12)
-* Supporting direct JSON-LD content links (#27)
-
-Thanks @AniTexs for the suggestion!
+* Supporting direct JSON-LD content links (#27) (Thanks @AniTexs!)
+* Generating README.md (#28)
 
 ---
 
